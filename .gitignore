@@ -1,0 +1,5 @@
+node_modules
+dist
+dist-preview
+public/api/storage/*
+!public/api/storage/.htaccess
