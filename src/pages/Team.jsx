@@ -11,7 +11,7 @@ export default function Team() {
       <PageHero crumb="Team" title={<>The <em>Team.</em></>} lead="Designers, developers and marketers who plan, design and ship together." />
       <section className="light team inner sec">
         <div className="wrap">
-          <div className="sec-head"><h2>A team built to plan, design, and ship</h2></div>
+          <div className="sec-head"><h2>A team built to think, create, and innovate</h2></div>
           <TeamGrid />
         </div>
       </section>

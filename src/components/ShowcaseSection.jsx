@@ -9,8 +9,7 @@ export default function ShowcaseSection() {
     <section className="light showcase" id="work">
       <div className="wrap sc-grid">
         <div>
-          <p className="eyebrow">Featured projects</p>
-          <h2>Studio Showcase</h2>
+          <h2>Projects</h2>
           <ul className="sc-list" id="scList">
             {SHOWCASE.map((p, n) => (
               <li key={p.name}>

@@ -3,7 +3,7 @@ import PageHero from '../components/PageHero.jsx'
 import usePageMeta from '../hooks/usePageMeta.js'
 import { postForm } from '../api.js'
 
-const SERVICES = ['Branding', 'Digital', 'Development', 'Not sure yet']
+const SERVICES = ['Branding', 'Digital', 'Development', '3D Modelling', 'Not sure yet']
 const EMPTY = { name: '', email: '', phone: '', service: 'Branding', message: '', website: '' }
 
 export default function Contact() {

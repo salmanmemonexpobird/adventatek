@@ -1,7 +1,6 @@
 import PageHero from '../components/PageHero.jsx'
 import AboutIntro from '../components/AboutIntro.jsx'
 import Marquee from '../components/Marquee.jsx'
-import Culture from '../components/Culture.jsx'
 import Values from '../components/Values.jsx'
 import Cta from '../components/Cta.jsx'
 import usePageMeta from '../hooks/usePageMeta.js'
@@ -11,7 +10,7 @@ export default function About() {
   usePageMeta('About Us | Adventa Tek', 'About Adventa Tek, a brand and technology studio in Karachi.')
   return (
     <main>
-      <PageHero crumb="About Us" title={<>About <em>Us.</em></>} lead="A brand and technology studio in Karachi, working with businesses in Pakistan and the US. Branding, digital marketing and development, all under one roof." />
+      <PageHero crumb="About Us" title={<>About <em>Us.</em></>} lead="Adventa Tek is a creative and technology-driven agency based in Karachi, helping businesses in Pakistan and across the globe build, grow, and stand out. We bring creativity, strategy, and technology together to deliver complete digital solutions, from branding and digital marketing to web development, all under one roof." />
       <AboutIntro />
       <section className="light sec" style={{ paddingTop: 20 }}>
         <div className="wrap">
@@ -30,7 +29,6 @@ export default function About() {
           <Values />
         </div>
       </section>
-      <Culture />
       <Cta />
     </main>
   )

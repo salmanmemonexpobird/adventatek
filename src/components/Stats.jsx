@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 
 const STATS = [
-  { to: 8, suffix: '+', label: 'Years Building' },
-  { to: 2, suffix: '', label: 'Countries Served' },
-  { to: 6, suffix: '', label: 'Core Services' },
-  { to: 24, suffix: 'h', label: 'Response Time' },
+  { to: 3, suffix: '+', label: 'Years Experience' },
+  { to: 30, suffix: '+', label: 'Happy Clients' },
+  { to: 100, suffix: '+', label: 'Projects Completed' },
 ]
 
 function Stat({ to, suffix, label }) {

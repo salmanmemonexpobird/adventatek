@@ -17,6 +17,12 @@ export const SERVICES = [
     items: ['WordPress and custom plugins', 'Shopify stores', 'Next.js and React apps', 'WooCommerce', 'Speed and security', 'Care plans and support'],
     icon: (<path d="M22 20l-12 12 12 12M42 20l12 12-12 12M36 14l-8 36" />),
   },
+  {
+    no: '04', key: '3D', title: '3D Modelling',
+    short: 'Product renders, architectural visuals and animated 3D that show your idea before it exists. Built to scale from a single hero shot to a full walkthrough.',
+    items: ['Product modelling and renders', 'Architectural visualisation', '3D animation and walkthroughs', 'Packaging mockups', 'Web-ready 3D (glTF/WebGL)', 'AR and interactive viewers'],
+    icon: (<><path d="M32 8l22 12v24L32 56 10 44V20z" /><path d="M32 32l22-12M32 32L10 20M32 32v24" /><path d="M21 14l22 12v10" strokeDasharray="3 4" /></>),
+  },
 ]
 
 export const PROJECTS = [
@@ -29,6 +35,7 @@ export const PROJECTS = [
   { name: 'Project Seven', cat: 'Branding', tags: ['Brand guidelines', 'Strategy'], art: 'a2' },
   { name: 'Project Eight', cat: 'Digital', tags: ['Analytics', 'Reporting'], art: 'a6' },
   { name: 'Project Nine', cat: 'Development', tags: ['Web app', 'Next.js'], art: 'a9' },
+  { name: 'Project Ten', cat: '3D', tags: ['Product render', '3D animation'], art: 'a10' },
 ]
 
 export const STEPS = [
@@ -53,7 +60,7 @@ export const TEAM = [
 
 export const TOOLS = [
   ['WordPress', 'CMS'], ['Shopify', 'STORE'], ['Next.js', 'WEB'], ['React', 'UI'],
-  ['WooCommerce', 'STORE'], ['Figma', 'DESIGN'], ['Elementor', 'CMS'], ['Supabase', 'DATA'],
+  ['WooCommerce', 'STORE'], ['Figma', 'DESIGN'], ['Blender', '3D'], ['Supabase', 'DATA'],
 ]
 
 export const SHOWCASE = [

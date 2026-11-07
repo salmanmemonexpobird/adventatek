@@ -5,10 +5,10 @@ import Cta from '../components/Cta.jsx'
 import usePageMeta from '../hooks/usePageMeta.js'
 import { PROJECTS } from '../data/content.jsx'
 
-const FILTERS = [['all', 'All'], ['Branding', 'Branding'], ['Digital', 'Digital'], ['Development', 'Development']]
+const FILTERS = [['all', 'All'], ['Branding', 'Branding'], ['Digital', 'Digital'], ['Development', 'Development'], ['3D', '3D Modelling']]
 
 export default function Projects() {
-  usePageMeta('Showcase | Adventa Tek', 'Selected branding, digital and development projects by Adventa Tek.')
+  usePageMeta('Showcase | Adventa Tek', 'Selected branding, digital, development and 3D modelling projects by Adventa Tek.')
   const [params] = useSearchParams()
   const initial = FILTERS.some(([k]) => k === params.get('filter')) ? params.get('filter') : 'all'
   const [filter, setFilter] = useState(initial)

@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="foot-grid">
           <div>
             <h3>Information</h3>
-            <p>Adventa Tek helps businesses look sharper, sell more and run smoother online, with branding, digital marketing and development <b style={{ color: 'var(--paper)' }}>under one roof</b>.</p>
+            <p>Adventa Tek helps businesses look sharper, sell more and run smoother online, with branding, digital marketing, development and 3D modelling <b style={{ color: 'var(--paper)' }}>under one roof</b>.</p>
           </div>
           <div>
             <h3>Get in Touch</h3>

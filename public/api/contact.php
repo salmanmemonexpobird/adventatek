@@ -16,7 +16,7 @@ $phone   = clean_line($in['phone'] ?? '', 40);
 $service = clean_line($in['service'] ?? '', 40);
 $message = clean_text($in['message'] ?? '', 5000);
 
-$allowedServices = ['Branding', 'Digital', 'Development', 'Not sure yet'];
+$allowedServices = ['Branding', 'Digital', 'Development', '3D Modelling', 'Not sure yet'];
 if (!in_array($service, $allowedServices, true)) $service = 'Not sure yet';
 
 if (mb_strlen($name) < 2)           fail(422, 'Please enter your name.');
