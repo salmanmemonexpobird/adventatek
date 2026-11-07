@@ -103,7 +103,7 @@ p{margin:0}
 .about-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
 .about-grid>div:first-child{max-width:760px}
 .about h2{font-size:clamp(2.2rem,4.6vw,3.6rem);line-height:1.06;font-weight:600;margin-top:14px}
-.about-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:48px}
+.about-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:0}
 .about-box{position:relative;overflow:hidden;isolation:isolate;border:1px solid var(--ink);border-radius:22px;padding:36px 32px 38px;transition:color .4s var(--hv),transform .4s var(--hv),box-shadow .4s var(--hv)}
 .about-box::before{content:"";position:absolute;left:50%;top:50%;width:1200px;height:1200px;margin:-600px 0 0 -600px;border-radius:50%;background:var(--lime);transform:scale(0);transition:transform .5s var(--hv);z-index:-1;pointer-events:none}
 .about-box:hover::before{transform:scale(1)}
@@ -309,6 +309,7 @@ main{position:relative;z-index:2;background:var(--paper)}
 @media (hover:none){.btn::before,.tool::before{display:none}.btn:hover{background:var(--lime)}}
 
 /* ---- Clients logo marquee ---- */
+.clients h2{text-align:center;max-width:none;margin-inline:auto}
 .clients .tool-row+.tool-row{margin-top:18px}
 .clients .tool-row.rev .tool-track{animation-direction:reverse;animation-duration:36s}
 .tool.logo{display:flex;align-items:center;justify-content:center;min-width:190px;height:88px;padding:0 32px;background:var(--paper)}

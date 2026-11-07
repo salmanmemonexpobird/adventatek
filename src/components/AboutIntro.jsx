@@ -4,10 +4,6 @@ export default function AboutIntro({ button = false }) {
   return (
     <section className="light about" id="about">
       <div className="wrap about-grid">
-        <div>
-          <p className="eyebrow">Welcome to Adventa Tek</p>
-          <h2>A studio where great brands and solid code are built in the same room</h2>
-        </div>
         <div className="about-cols">
           <article className="about-box">
             <span className="no">01</span>
