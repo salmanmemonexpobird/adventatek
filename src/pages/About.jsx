@@ -1,5 +1,6 @@
 import PageHero from '../components/PageHero.jsx'
 import AboutIntro from '../components/AboutIntro.jsx'
+import Stats from '../components/Stats.jsx'
 import Marquee from '../components/Marquee.jsx'
 import Values from '../components/Values.jsx'
 import Cta from '../components/Cta.jsx'
@@ -28,6 +29,9 @@ export default function About() {
           <div className="sec-head"><h2>What we stand for</h2></div>
           <Values />
         </div>
+      </section>
+      <section className="light stats-band" aria-label="Key numbers">
+        <div className="wrap"><Stats /></div>
       </section>
       <Cta />
     </main>

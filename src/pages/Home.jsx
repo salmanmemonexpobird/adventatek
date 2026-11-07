@@ -1,6 +1,7 @@
 import Hero from '../components/Hero.jsx'
 import ServicesGrid from '../components/ServicesGrid.jsx'
 import AboutIntro from '../components/AboutIntro.jsx'
+import Stats from '../components/Stats.jsx'
 import Marquee from '../components/Marquee.jsx'
 import ShowcaseSection from '../components/ShowcaseSection.jsx'
 import TeamGrid from '../components/TeamGrid.jsx'
@@ -27,6 +28,9 @@ export default function Home() {
           </div>
         </section>
         */}
+        <section className="light stats-band" aria-label="Key numbers">
+          <div className="wrap"><Stats /></div>
+        </section>
         <section className="skills" aria-label="What we do">
           <AutoVideo lazy src={asset('media/skills.mp4')} />
         </section>
